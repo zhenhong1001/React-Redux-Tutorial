@@ -1,0 +1,20 @@
+// second argument is []
+// called after first render
+// never called again
+	useEffect(() => {
+    console.log('Hi');
+  }, []);
+
+// second argument is -
+// called after first render
+// also called after every rerender
+	useEffect(() => {
+    console.log('Hi');
+  });
+
+// second argument is [counter]
+// called after first render
+// also called after rerenders if 'counter' variable changed
+	useEffect(() => {
+    console.log('Hi');
+  }, [counter]);
