@@ -1,4 +1,0 @@
-https://state-updates.vercel.app/
-
-The link above state the correct way of updating an object or array in React.
-This is to prevent the data to be mutated.
